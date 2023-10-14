@@ -228,7 +228,9 @@ body {
   text-align: center;
 }
 
-img {
+.img {
+  width: 490px;
+  height: 355px;
   padding: 2rem;
 }
 
@@ -339,10 +341,20 @@ img {
   .About .row .content p {
     font-size: 1.6rem;
   }
+
+   .img {
+    width: 340px;
+    height: 240px;
+  }
 }
 /* MobilePhone */
 @media (max-width: 450px) {
   html {
-    font-size: 55%;
+    font-size: 40%;
+  }
+
+    .img {
+    width: 140px;
+    height: 90px;
   }
 }
