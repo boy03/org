@@ -189,11 +189,15 @@ body {
   margin-bottom: 1rem;
 }
 
-.About .row .content p {
+.About .row {
   margin-bottom: 0.5rem;
   font-size: 1.4rem;
   /* font-weight: 100; */
   line-height: 1.6;
+}
+
+.content p {
+  padding-top: 5rem;
 }
 
 /* Menuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu */
@@ -234,6 +238,10 @@ body {
   padding: 2rem;
 }
 
+.About-img {
+  width: 50%;
+}
+
 .Menu .row .Menu-card-img {
   width: 50%;
 }
@@ -270,6 +278,10 @@ body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.paragraf {
+  font-size: 1.5rem;
+}
+
 /* RESPONSIiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii */
 
 /* Media queries */
@@ -277,6 +289,10 @@ body {
 @media (max-width: 1366px) {
   html {
     font-size: 75%;
+  }
+
+  .content p {
+    padding-top: 8rem;
   }
 }
 /* Tablet */
@@ -342,19 +358,27 @@ body {
     font-size: 1.6rem;
   }
 
-   .img {
-    width: 340px;
-    height: 240px;
+  .img {
+    width: 350px;
+    height: 250px;
+  }
+
+  .About-img {
+    width: 100%;
   }
 }
 /* MobilePhone */
-@media (max-width: 450px) {
+@media (max-width: 440px) {
   html {
     font-size: 40%;
   }
 
-    .img {
-    width: 140px;
-    height: 90px;
+  .img {
+    width: 340px;
+    height: 240px;
+  }
+
+  .About-img {
+    width: 100%;
   }
 }
